@@ -193,23 +193,23 @@ Contributions are what make the open source community such an amazing place to l
 <!-- ----------------------------------------------------------------- -->
 
 <!-- BADGES SECTION -->
-[contributors-shield]: https://img.shields.io/github/contributors/jlar0che/NodeMCU-Temp-Humid-Interface?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/jlar0che/NodeMCU-Interface?style=for-the-badge
 [contributors-url]: https://github.com/jlar0che/NodeMCU-Interface/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/jlar0che/NodeMCU-Temp-Humid-Interface?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/jlar0che/NodeMCU-Interface?style=for-the-badge
 [forks-url]: https://github.com/jlar0che/NodeMCU-Interface/network/members
 
-[github-downloads]: https://img.shields.io/github/downloads/jlar0che/NodeMCU-Temp-Humid-Interface/total?style=for-the-badge
+[github-downloads]: https://img.shields.io/github/downloads/jlar0che/NodeMCU-Interface/total?style=for-the-badge
 [github-url]: https://github.com/jlar0che/NodeMCU-Interface
 
 
-[stars-shield]: https://img.shields.io/github/stars/jlar0che/NodeMCU-Temp-Humid-Interface?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/jlar0che/NodeMCU-Interface?style=for-the-badge
 [stars-url]: https://github.com/jlar0che/NodeMCU-Interface/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/jlar0che/NodeMCU-Temp-Humid-Interface?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/jlar0che/NodeMCU-Interface?style=for-the-badge
 [issues-url]: https://github.com/jlar0che/NodeMCU-Interface/issues
 
-[license-shield]: https://img.shields.io/github/license/jlar0che/NodeMCU-Temp-Humid-Interface?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/jlar0che/NodeMCU-Interface?style=for-the-badge
 [license-url]: https://github.com/jlar0che/NodeMCU-Interface/blob/main/LICENSE
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
