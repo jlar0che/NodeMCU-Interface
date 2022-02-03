@@ -3,7 +3,6 @@ Provides WiFi connectivity for the NodeMCU with numberous on-screen feedback  el
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![Downloads Stats][github-downloads]][github-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
@@ -198,10 +197,6 @@ Contributions are what make the open source community such an amazing place to l
 
 [forks-shield]: https://img.shields.io/github/forks/jlar0che/NodeMCU-Interface?style=for-the-badge
 [forks-url]: https://github.com/jlar0che/NodeMCU-Interface/network/members
-
-[github-downloads]: https://img.shields.io/github/downloads/jlar0che/NodeMCU-Interface/total?style=for-the-badge
-[github-url]: https://github.com/jlar0che/NodeMCU-Interface
-
 
 [stars-shield]: https://img.shields.io/github/stars/jlar0che/NodeMCU-Interface?style=for-the-badge
 [stars-url]: https://github.com/jlar0che/NodeMCU-Interface/stargazers
