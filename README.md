@@ -76,33 +76,33 @@ This repo assumes that you have an ESP8266 housed in a specially configued "Kube
 
 ### Installation
 
-- **Download and install the newest version of the Arduino IDE:**
+- **Download and install the newest version of the Arduino IDE:** <br>
 Navigate to https://www.arduino.cc/en/software in your preferred web browser, then download and install the Arduino IDE version for your Operating System.
 
 
-- **Add the ESP8266 Board Manager:**
+- **Add the ESP8266 Board Manager:** <br>
 Launch the Arduino IDE and open the Preferences menu by navigating to "File" &rarr; "Preferences" or by pressing <kbd>Ctrl</kbd> + <kbd>,</kbd>. In the "Additional Board Manager URLs" field enter the following URL (note that you can add multiple URLs by separating them with a <kbd>,</kbd>):
 ```
 https://arduino.esp8266.com/stable/package_esp8266com_index.json
 ```
 <img src="https://github.com/jlar0che/NodeMCU-Interface/blob/main/README-files/Arduino%20Preferences%20Screenshot%20-%20Additional%20Boards%20Manager%20URL%20entered.jpg?raw=true" alt="Arduino-Preferences-Screenshot-Additional-Boards-Manager-URL-entered" width="640"><br>
 
-- **Install ESP8266 Board in the Boards Manager:**
+- **Install ESP8266 Board in the Boards Manager:** <br>
 Open the Boards Manager by clicking on "Tools" &rarr; "Boards" &rarr; "Boards Manager". In the search field type in "ESP8266" and then click on the "Install" button. Make sure to select your ESP8266 board from the menu after installation.<br>
 <br><img src="https://i.ibb.co/nfxpn1r/Arduino-Board-Installation-Cropped.gif" width="1000"><br>
 
-- **Install the newest versions of all necessary Arduino Libraries (**see "Built With" section above for complete list**):**
+- **Install the newest versions of all necessary Arduino Libraries (**see "Built With" section above for complete list**):** <br>
 Open the Library Manager by clicking on "Tools" &rarr; "Manage Libraries", or by pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>i</kbd>. In the search field type in "ESP8266" and then click on the "Install" button. Make sure to select your ESP8266 board from the menu after installation. <p> <img src="https://github.com/jlar0che/NodeMCU-Interface/blob/main/README-files/Arduino-Library-Installation.gif?raw=true" width="1000">
 
-- **Upload the Arduino sketch to your ESP8266:**
+- **Upload the Arduino sketch to your ESP8266:** <br>
 Download the Arduino sketch from this Github Repository, open it in your Arduino IDE and modify the pertinent parameters -- WiFi SSID name and password along with the name of the location where the device will live. Connect your ESP8266 to your computer with a USB cable. Determine what port your ESP8266 is occupying on your machine, then choose that port in the Arduino IDE by going to "Tools" &rarr; "Port" and clicking on the correct port. Please note that if you are having trouble connecting to the ESP8266 - especially if you are in the Windows OS and see an unknown device in Device Manager - this oddly enough can be caused by the actual USB cable you are using. Try another USB cable until you can confirmation that you can successfully communicate with the ESP8266 in Arduino IDE by clicking on "Tools" &rarr; "Get Board Info" <br><br> <img src="https://github.com/jlar0che/NodeMCU-Interface/blob/main/README-files/Arduino-Uploading-Sketch.gif?raw=true" width="1000">
 
-- **Get the IP Address of the Unit:**
+- **Get the IP Address of the Unit:** <br>
 When the unit powers on it will tell you which Wireless SSID it is attempting to connect to and what IP address it has obtained after connecting. Jot down the IP address. Note that if you either don't want to connect to a WiFi hotspot or for any reason you are unable to you will still be able to see the realtime Temperature and Humidity picked up by the DHT22 via the OLED display.   
   
   [![Turning on the unit](https://img.youtube.com/vi/s76lNv9_MeE/0.jpg)](https://youtu.be/s76lNv9_MeE)
 
-- **Connect to the Unit via Web Browser:**
+- **Connect to the Unit via Web Browser:** <br>
 Now you can simply open your preferred web browser and enter the unit's IP address in the address bar. 
 <br>
 <img src="https://github.com/jlar0che/NodeMCU-Interface/blob/main/README-files/NodeMCU_ESP8266_-Temp-Humid-Webpage.gif?raw=true">
